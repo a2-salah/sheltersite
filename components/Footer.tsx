@@ -8,47 +8,47 @@ import {
 
 const Footer = () => {
   return (
-    <footer className="mx-auto max-w-3xl px-4 sm:px-6 md:max-w-5xl ">
+    <footer className="max-w-3xl px-4 mx-auto sm:px-6 md:max-w-5xl ">
       <hr className="w-full h-0.5 mx-auto mt-8 bg-neutral-200 border-0"></hr>
-      <div className="mx-auto  p-4 flex flex-col text-center text-neutral-900 md:flex-row md:justify-between">
+      <div className="flex flex-col p-4 mx-auto text-center text-neutral-900 md:flex-row md:justify-between">
         <div className="flex flex-row items-center justify-center space-x-1 text-neutral-500 dark:text-neutral-100">
-          © 2023 Hosna Qasmei<a href="/" className="hover:underline"></a>
+          © 2023 Ahmed Abdi<a href="/" className="hover:underline"></a>
         </div>
-        <div className="flex flex-row items-center justify-center space-x-2 mb-1">
-          <a href="https://github.com/hqasmei" rel="noreferrer" target="_blank">
+        <div className="flex flex-row items-center justify-center mb-1 space-x-2">
+          <a href="https://github.com/a2_salah" rel="noreferrer" target="_blank">
             <AiOutlineGithub
-              className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
+              className="transition-transform cursor-pointer hover:-translate-y-1 text-neutral-500 dark:text-neutral-100"
               size={30}
             />
           </a>
           <a
-            href="https://twitter.com/hqasmei"
+            href="https://twitter.com/yaezir"
             rel="noreferrer"
             target="_blank"
           >
             <AiOutlineTwitter
-              className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
+              className="transition-transform cursor-pointer hover:-translate-y-1 text-neutral-500 dark:text-neutral-100"
               size={30}
             />
           </a>
 
           <a
-            href="https://www.linkedin.com/in/hosnaqasmei/"
+            href="#"
             rel="noreferrer"
             target="_blank"
           >
             <AiOutlineLinkedin
-              className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
+              className="transition-transform cursor-pointer hover:-translate-y-1 text-neutral-500 dark:text-neutral-100"
               size={30}
             />
           </a>
           <a
-            href="https://www.youtube.com/channel/UCQBMkSDgbxDb8usMeXmOZyA"
+            href="#"
             rel="noreferrer"
             target="_blank"
           >
             <AiOutlineYoutube
-              className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
+              className="transition-transform cursor-pointer hover:-translate-y-1 text-neutral-500 dark:text-neutral-100"
               size={30}
             />
           </a>
